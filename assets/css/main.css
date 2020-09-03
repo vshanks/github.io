@@ -3968,16 +3968,33 @@ body {
 /* Footer */
 
 	#footer {
-		padding: 6rem 0 4rem 0 ;
+		padding: inherit ;
 		background: #f2f2f2;
 	}
 
 		#footer .copyright {
 			color: #bbb;
 			font-size: 0.9rem;
-			margin: 0 0 2rem 0;
+			margin: 0;
 			padding: 0;
-			text-align: center;
+			/* text-align: center; */
+		}
+		#footer .copyright .minorcopyright {
+			float: left;
+			padding: 1rem 0 0 0;
+			color: #bbb;
+		}
+
+		#footer .copyright .maincopyright {
+			float: right;
+		}
+
+		#footer .copyright .maincopyright a{
+			margin: 0 1rem 0 1rem;
+		}
+
+		#footer .copyright .maincopyright span{
+			margin: 0 1rem 0 1rem;
 		}
 
 		@media screen and (max-width: 736px) {
