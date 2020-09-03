@@ -21,7 +21,8 @@ particlesJS("particles-js", {
       },
       "image": {
         // "src": "http://www.dynamicdigital.us/wp-content/uploads/2013/02/starburst_white_300_drop_2.png",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Fictional_Planet_Andoria.png",
+        // "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Fictional_Planet_Andoria.png",
+        "src": "images/star.png",
         "width": 100,
         "height": 100
       }
