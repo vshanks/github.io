@@ -14,7 +14,8 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url("../../images/universe-1566159_1920.jpg");
+	/* background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url("../../images/nasa-n463SoeSiVY-unsplash.jpg"); */
+	background-image: url("../../images/universe-1566159_1920.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -3880,7 +3881,7 @@ body {
 			transition-delay: 1.25s;
 			content: '';
 			display: block;
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0.25);
 			height: 100%;
 			left: 0;
 			opacity: 0.75;
