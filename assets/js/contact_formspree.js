@@ -33,5 +33,12 @@ formbutton("create", {action: "https://formspree.io/mrgynzaj",
         background: "#5AA6ED",
     }
     },
-    initiallyVisible: false
+    initiallyVisible: false,
+    onResponse: function(ok, setStatus) {
+            if (ok) {
+            setStatus("Thanks for reaching out! I'll get back to you soon.");
+            } else {
+                setStatus("<span style='color:#F06543'>Ooopsies! The internet broke <p style='font-size:50px'>&#129327;</p> <br/>Try the <a href='contact.html'>contact page</a></span>");
+            }
+        }
     });
