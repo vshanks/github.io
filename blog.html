@@ -1,0 +1,59 @@
+---
+layout: default
+title: Blog
+things_i_like: things_i_like_list.html
+quote: travel
+---
+
+<!-- Banner -->
+
+<section id="banner" style="background-image: url('images/nasa-satellite.jpg')" class="shrunk">
+	<div class="inner">
+		<h1>Blog</h1>
+		<div class="inner">
+			<a href="#blogstart" class="icon fa-chevron-down special scrolly align-center"></a>
+		</div>
+	</div>
+</section>
+
+<section id="blogstart" class="wrapper style2">
+	<div class="inner">
+		<div class="box">
+			<div class="content">
+				<div class="row 200%">
+					<div class="6u">
+						<header class="align-center">
+							<h3>Writing Coming Soon...Until then</h3>
+						</header>
+						<hr />
+						<p>Once upon a moment, there was a firefly alien caught up in the 
+						microsecond that would span her entire lifespan. She loved theatre, 
+						but knew she would never get to see both the beginning and end of any 
+						play. She would grow up (a nanosecond later) to invent nanoplants - 
+						implants that would speed up any conventional film or art theatre 
+						(no musicals - because that wasn't her scene) into a fraction of a nanosecond. 
+						</p>
+						<!--{% for tag in site.categories %}
+						<h3>{{ tag[0] }}</h3>
+						<ul>
+							{% for post in tag[1] %}
+							<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+							{% endfor %}
+						</ul>
+						{% endfor %}
+					</div>
+					{% if page.things_i_like %}
+					{% include {{ page.things_i_like }} %}
+					{% endif %}-->
+				</div>	
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{% assign quote_content = site.data.quotes[page.quote].content %}
+{% assign quote_author = site.data.quotes[page.quote].author %}
+{% include quotes_template.html content=quote_content author=quote_author %}
+
+

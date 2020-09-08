@@ -27,10 +27,10 @@ formbutton("create", {action: "https://formspree.io/mrgynzaj",
     styles: {
     fontFamily: "Montserrat",
     title: {
-        background: "#5AA6ED",
+        background: "#03045E",
     },
     button: {
-        background: "#5AA6ED",
+        background: "#03045E",
     }
     },
     initiallyVisible: false,

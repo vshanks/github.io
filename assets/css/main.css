@@ -1,6 +1,8 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
+@import url(palette.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,300i,400i,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open Sans:300,400,700,300i,400i,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Audiowide:300,400,700,300i,400i,700i,900,900i");
 
 /*
 	Transitive by TEMPLATED
@@ -63,10 +65,10 @@ body {
 .blockquote:before {
   position: absolute;
   font-family: 'FontAwesome';
-  bottom: 0px;
-  left: 100px;
+  bottom: 50%;
+  left: 10%;
   content:"\f10d";
-  font-size: 200px;
+  font-size: 50px;
   color: #f8f9fabf;
 }
 
@@ -76,7 +78,7 @@ body {
     left: 50%;
     margin-left: -100px;
     position: absolute;
-    border-bottom: 3px solid #5AA6ED;
+    border-bottom: 3px solid var(--highlight-color);
     height: 3px;
     width: 200px;
 }
@@ -94,7 +96,7 @@ body {
   height: 15px;
   width: 15px;
   border-radius: 15px;
-  background-color: #5AA6ED;
+  background-color: var(--dark-main);
   animation: animate linear 2s infinite;
 }
 
@@ -150,24 +152,112 @@ body {
 
 @keyframes animate {
   0%, 100% {
-    background-color: #5AA6ED;
+    background-color: var(--dark-main);
   }
   50% {
-    background-color: #C7FFED;
+    background-color: var(--highlight-color);
   }
 }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+.inner > div.section_navigator {
+	text-align: justify;
+}
 
+.inner > div.section_navigator > div.navigate {
+	/*width: 100px;  Declare your value. Can be in relative units. */
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.inner > div.section_navigator:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+  
+.dark_main_color {
+	color: var(--dark-main);
+}
+
+.nodecor {
+	text-decoration: none;
+}
+
+#resume {
+	color: var(--dark-main);
+}
+
+#resume *{
+	color: var(--dark-main);
+}
+
+h3#bold_heading {
+	font-weight: 600;
+	color: var(--dark-main);
+}
+
+b#resumehighlight {
+	font-weight: 600;
+}
+
+.resumegroup #resumerole {
+	margin: 0 0 0.5rem 0;
+}
+
+.resumegroup:after {
+	content: '';
+	height: 100%; 
+	width: 1px;
+  
+	position: absolute;
+	right: 0;
+	top: 0; 
+  
+	background-color: #000000; 
+  }
+
+
+  #scroll_to_top {
+	display: inline-block;
+	background-color: transparent;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 90px;
+	transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+	text-decoration: none;
+  }
+  #scroll_to_top::after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: var(--dark-main);
+  }
+  #scroll_to_top:hover {
+	cursor: pointer;
+	border: var(--dark-main) 2px solid;
+	background-color: transparent;
+  }
+  #scroll_to_top:active {
+	border: var(--dark-main) 3px solid;
+	background-color: transparent;
+  }
+  #scroll_to_top.show {
+	opacity: 1;
+	visibility: visible;
+  }
+  
 /* ENDOF Varsha's experiments
 -------------------------------------------------------------- */
 
@@ -1797,7 +1887,7 @@ body {
 	}
 
 	body, input, select, textarea {
-		font-family: "Roboto";
+		font-family: var(--main-font);
 		font-weight: 400;
 		font-size: 1.1rem;
 		line-height: 1.65;
@@ -1846,6 +1936,14 @@ body {
 			}
 
 		}
+
+	h2.resumeheading {
+		font-family: var(--special-font);
+		font-weight: 400;
+		font-size: 4rem;
+		text-transform: none;
+		text-align: center;
+	}
 
 	h3 {
 		font-size: 1.35rem;
@@ -2155,9 +2253,10 @@ body {
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #5AA6ED;
+			background-color: var(--dark-main);
 			color: #ffffff !important;
 		}
+		
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
@@ -3035,19 +3134,16 @@ body {
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
-				color: #000;
+				color: var(--regular-main);
 			}
 
-			.wrapper.style2 a {
-				color: #5AA6ED;
-			}
-
+			
 			.wrapper.style2 strong, .wrapper.style2 b {
-				color: #000;
+				color: var(--regular-main);
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #000;
+				color: var(--regular-main);
 			}
 
 			.wrapper.style2 blockquote {
@@ -3135,6 +3231,21 @@ body {
 						background-color: #439aea;
 					}
 
+				.wrapper.style2 .button.special.skills {
+					background-color: var(--dark-main);
+					color: #ffffff !important;
+					border-radius: 0.3rem;
+					padding: 0 0.5rem 0 0.5rem;
+					height: 2rem;
+					line-height: 2rem;
+					text-transform: none;
+					cursor: text;
+					margin: 0 0.5rem 1.5rem 0;
+				}
+					.wrapper.style2 .button.special.skills.beginner {
+						background-color: var(--light-main);
+					}
+					
 			.wrapper.style2 label {
 				color: #000;
 			}

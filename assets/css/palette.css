@@ -1,0 +1,12 @@
+:root {
+    /* Colours */
+    --dark-main: #03045E;
+    --light-main: #67689E;
+    --regular-main: #444444;
+    --highlight-color: #9FFFF5;
+    --regular-background: #FFFAFA;
+    
+    /* Fonts */
+    --main-font: "Open Sans";
+    --special-font: "Audiowide";
+}
