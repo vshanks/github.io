@@ -3130,7 +3130,7 @@ b#resumehighlight {
 
 		.wrapper.style2 {
 			background-color: #f2f2f2;
-			color: #073B4C;
+			color: var(--regular-main);
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3142,7 +3142,11 @@ b#resumehighlight {
 				color: var(--regular-main);
 			}
 
-			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
+			.wrapper.style2 h1, .wrapper.style2 h2{
+				color: var(--dark-main);
+			}
+
+			.wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
 				color: var(--regular-main);
 			}
 

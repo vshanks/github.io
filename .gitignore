@@ -1,8 +1,10 @@
+# Standards and IDE
 .DS_Store
-pic01*
-pic02*
-pic03*
-bg.jpg
+.vscode
+_site
+.jekyll-cache
+# File specifics
 generic.html
 elements.html
 temp_index.html
+original_index.html
