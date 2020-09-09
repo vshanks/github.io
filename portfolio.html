@@ -1,0 +1,38 @@
+---
+layout: default
+title: Portfolio
+quote: danpink
+---
+
+<!-- Banner -->
+
+<section id="banner" style="background-image: url('images/nasa-satellite.jpg')" class="shrunk">
+	<div class="inner">
+		<h1>Portfolio</h1>
+		<div class="inner">
+			<a href="#portfoliostart" class="icon fa-chevron-down special scrolly align-center"></a>
+		</div>
+	</div>
+</section>
+
+<section id="portfoliostart" class="wrapper style2">
+	<div class="inner">
+		<div class="box">
+			<div class="content">
+						<header class="align-center">
+							<h2>Coming Soon...</h2>
+						</header>
+						<hr />
+						<p class="align-center">Our Varsha is working diligently away at this.
+						</p>
+					</div>
+		</div>
+	</div>
+</section>
+
+
+{% assign quote_content = site.data.quotes[page.quote].content %}
+{% assign quote_author = site.data.quotes[page.quote].author %}
+{% include quotes_template.html content=quote_content author=quote_author %}
+
+

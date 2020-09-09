@@ -67,7 +67,7 @@ body {
   font-family: 'FontAwesome';
   bottom: 50%;
   left: 10%;
-  content:"\f10d";
+  content:"";
   font-size: 50px;
   color: #f8f9fabf;
 }
@@ -78,7 +78,7 @@ body {
     left: 50%;
     margin-left: -100px;
     position: absolute;
-    border-bottom: 3px solid var(--highlight-color);
+    border-bottom: 3px solid var(--second-highlight-color);
     height: 3px;
     width: 200px;
 }
@@ -258,6 +258,74 @@ b#resumehighlight {
 	visibility: visible;
   }
   
+
+  #interests_intersection {
+	position: absolute;
+	display: block;
+  }
+
+  #interests_intersection * {
+	color: #FFFAFA;
+	font-weight: bold;
+	font-family: "Audiowide";
+	font-size: 1.5rem;
+  }
+  
+  .interest_circle {
+	position: absolute;
+	width: 15rem;
+	height: 15rem;
+	border-radius: 50%;
+  }
+  
+  .interest_circle .text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+  }
+  
+  .interest_circle#interestcircle-1 {
+  /* ai   */
+	background: var(--light-main);
+	opacity: 70%;
+	position: absolute;
+	top: 10rem;
+	left: 15rem;
+  }
+  
+  .interest_circle#interestcircle-2 {
+  /*  product  */
+	background: var(--dark-main);
+	opacity: 70%;
+	position: absolute;
+	top: 10rem;
+	left: 5rem;
+  }
+  
+  .interest_circle#interestcircle-3 {
+  /*    space*/
+	background: var(--second-highlight-color);
+	opacity: 70%;
+	position: absolute;
+	top: -2.5rem;
+	left: 10rem;
+	-webkit-animation: action 4s infinite  alternate;
+	animation: action 4s infinite  alternate;
+  }
+  
+  @-webkit-keyframes action {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(3rem);}
+  }
+  @keyframes action {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(3rem); }
+  }
+  
+
 /* ENDOF Varsha's experiments
 -------------------------------------------------------------- */
 
@@ -3362,6 +3430,8 @@ b#resumehighlight {
 			position: relative;
 		}
 
+	
+
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
 				color: #ffffff;
 			}
@@ -4291,9 +4361,9 @@ b#resumehighlight {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				font-size: 3.5rem;
-				background: #fff;
-				color: #5AA6ED;
+				font-size: 4rem;
+				background: none;
+				color: var(--dark-main);
 				width: 8rem;
 				height: 8rem;
 				border-radius: 100%;

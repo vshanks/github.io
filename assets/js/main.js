@@ -41,6 +41,18 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
+		// resize interests container
+			$window.on('resize', function() { 
+				var parent_height = $('#indexpage_interests_sibling_container').height();
+				elem = $('#interests_intersection_container');
+				elem.height(parent_height);
+			});
+			$window.on('load', function() { 
+				var parent_height = $('#indexpage_interests_sibling_container').height();
+				elem = $('#interests_intersection_container');
+				elem.height(parent_height);
+			});
+
 		// Header.
 			if (skel.vars.IEVersion < 9)
 				$header.removeClass('alt');
