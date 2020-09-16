@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://kit.fontawesome.com/62a273e8c1.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
 
@@ -16,8 +16,8 @@
             <a href="index.html" class="icon fa-home"></a>
             <a href="about.html">About</a>
             <a href="resume.html">Resume</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="blog.html">Blog</a>
+            <!--<a href="portfolio.html">Portfolio</a>-->
+            <!--<a href="blog.html">Blog</a>-->
             <a href="contact.html">Contact</a>
             <a href="#menu" class="toggle"><span>Menu</span></a>
         </header>
@@ -28,8 +28,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <!--<li><a href="portfolio.html">Portfolio</a></li>-->
+                <!--<li><a href="blog.html">Blog</a></li>-->
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -52,7 +52,7 @@
     <!-- Scripts -->
         <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
         <script src="assets/js/contact_formspree.js"></script>
-        <script src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="assets/js/jquery.scrolly.min.js"></script>
         <script src="assets/js/jquery.scrollex.min.js"></script>
         <script src="assets/js/skel.min.js"></script>
@@ -61,5 +61,36 @@
         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
         <script type="text/javascript" src="assets/js/particle-snow.js"></script>
         <script type="text/javascript" src="assets/js/scroll_to_top.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.mixitup.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                
+                var filterList = {
+                
+                    init: function () {
+                    
+                        // MixItUp plugin
+                        // http://mixitup.io
+                        $('#portfoliolist').mixItUp({
+                        selectors: {
+                        target: '.portfolio',
+                        filter: '.filter'	
+                    },
+                    load: {
+                    filter: '.app'  
+                    }     
+                        });			
+                    
+                    }
+
+                };
+                
+                // Run the show!
+                filterList.init();
+                
+                
+            });	
+        </script>
 	</body>
 </html>
