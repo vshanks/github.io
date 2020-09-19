@@ -40,7 +40,25 @@ quote: danpink
 							<h2>Send me a note</h2>
 						</header>
 						<hr />
-						<p>Use the little speech bubble in the bottom right corner of your screen to 
+						<div id="formio"></div>
+						<!--<form action="#" method="post">
+							<div class="field half first">
+								<label for="name">Name</label>
+								<input name="name" id="name" type="text" placeholder="Foo Bar">
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input name="email" id="email" type="email" placeholder="your@email.com">
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="3" placeholder="What's on your mind?"></textarea>
+							</div>
+							<ul class="actions align-center">
+								<li><input value="Send Message" class="button special" type="submit"></li>
+							</ul>
+						</form>-->
+						<!--<p>Use the little speech bubble in the bottom right corner of your screen to 
 						send me a note.<br/>Cheers!</p>
 						<ul class="loading-frame">
 							<span class="circle"></span>
@@ -53,13 +71,19 @@ quote: danpink
 							<span class="circle"></span>
 							<span class="circle"></span>
 							<span class="circle"></span>
-						</ul>
+						</ul>-->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+<script type="text/javascript">
+window.onload = function() {
+	Formio.createForm(document.getElementById('formio'), 'https://bushyiykhnkcwfj.form.io/contact');
+};
+</script>
 
 {% assign quote_content = site.data.quotes[page.quote].content %}
 {% assign quote_author = site.data.quotes[page.quote].author %}

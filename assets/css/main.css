@@ -2347,31 +2347,31 @@ b#resumehighlight {
 
 /* Form */
 
-	form {
+	#formio {
 		margin: 0 0 2rem 0;
 	}
 
-		form .field {
+	#formio .field {
 			margin-bottom: 2rem;
 		}
 
-			form .field.half {
+		#formio .field.half {
 				display: inline-block;
 				width: 48%;
 			}
 
-				form .field.half.first {
+			#formio .field.half.first {
 					margin-right: 2.5%;
 				}
 
 		@media screen and (max-width: 980px) {
 
-			form .field.half {
+			#formio .field.half {
 				display: block;
 				width: 100%;
 			}
 
-				form .field.half.first {
+			#formio .field.half.first {
 					margin-right: 0;
 				}
 
@@ -2382,6 +2382,7 @@ b#resumehighlight {
 		font-size: 0.9rem;
 		font-weight: 400;
 		margin: 0 0 1rem 0;
+		font-family: var(--main-font);
 	}
 
 	input[type="text"],
