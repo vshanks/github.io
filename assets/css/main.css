@@ -3915,8 +3915,11 @@ b#resumehighlight {
 
 		#header {
 			min-width: 320px;
+			width: 360px;
 		}
-
+		#header #hidden-small-screen {
+			display: none;
+		}
 	}
 
 /* Menu */
@@ -4067,7 +4070,6 @@ b#resumehighlight {
 		-ms-justify-content: center;
 		justify-content: center;
 		/* background-image: url("../../images/banner.jpg"); */
-		/* background-image: url("../../images/universe-1566159_1920.jpg"); */
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -4196,12 +4198,20 @@ b#resumehighlight {
 					width: 100%;
 				}
 
+				#banner.poster-small-screen{
+					background-image: url("../../images/arctic_ocean_img.png");
+				}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			#banner p {
 				font-size: 1em;
+			}
+
+			#banner.poster-small-screen{
+				background-image: url("../../images/arctic_ocean_img.png");
 			}
 
 		}

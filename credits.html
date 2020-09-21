@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Credits
+quote: danpink
 ---
 <!-- Banner -->
 
@@ -62,14 +63,6 @@ title: Credits
 
 
 
-<!-- Four -->
-<section id="four" class="wrapper style3">
-	<div class="inner">
-
-		<header class="align-center">
-			<h2>Placeholder</h2>
-			<p>Some sample text here</p>
-		</header>
-
-	</div>
-</section>
+{% assign quote_content = site.data.quotes[page.quote].content %}
+{% assign quote_author = site.data.quotes[page.quote].author %}
+{% include quotes_template.html content=quote_content author=quote_author %}
