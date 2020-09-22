@@ -1695,7 +1695,7 @@ b#resumehighlight {
 		}
 
 		.row.uniform > * {
-			padding: 1.25rem 0 0 1.25rem;
+			padding: 1.25rem 0 0 1.75rem;
 		}
 
 		.row.uniform {
@@ -4239,6 +4239,12 @@ b#resumehighlight {
 					background-image: url("../../images/universe-1566159_1920.jpg");
 				}
 
+		}
+
+		@media screen and (max-width: 768px) {
+			#banner.poster-small-screen{
+				background-image: url("../../images/arctic_ocean_img.png");
+			}
 		}
 
 		@media screen and (max-width: 480px) {
