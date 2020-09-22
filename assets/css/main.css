@@ -259,7 +259,7 @@ b#resumehighlight {
   }
   
 
-  #interests_intersection {
+  /* #interests_intersection {
 	position: absolute;
 	display: block;
   }
@@ -269,17 +269,25 @@ b#resumehighlight {
 	font-weight: bold;
 	font-family: "Audiowide";
 	font-size: 1.5rem;
+  } */
+
+  #interests_intersection_container {
+	  position: relative;
   }
   
   .interest_circle {
 	position: absolute;
-	width: 15rem;
-	height: 15rem;
+	/*width: 50%; 15rem*/
+	/*height: 15rem*/
 	border-radius: 50%;
   }
   
   .interest_circle .text {
 	position: absolute;
+	color: #FFFAFA;
+	font-weight: bold;
+	font-family: "Audiowide";
+	font-size: 1.5rem;
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
@@ -292,8 +300,8 @@ b#resumehighlight {
 	background: var(--light-main);
 	opacity: 70%;
 	position: absolute;
-	top: 10rem;
-	left: 15rem;
+	top: 45%;
+	left: 37%;
   }
   
   .interest_circle#interestcircle-2 {
@@ -301,8 +309,8 @@ b#resumehighlight {
 	background: var(--dark-main);
 	opacity: 70%;
 	position: absolute;
-	top: 10rem;
-	left: 5rem;
+	top: 45%;
+	left: 14%;
   }
   
   .interest_circle#interestcircle-3 {
@@ -310,22 +318,40 @@ b#resumehighlight {
 	background: var(--second-highlight-color);
 	opacity: 70%;
 	position: absolute;
-	top: -2.5rem;
-	left: 10rem;
+	top: 5%;
+	left: 25%;
 	-webkit-animation: action 4s infinite  alternate;
-	animation: action 4s infinite  alternate;
+	 animation: action 4s infinite  alternate; 
   }
   
-  @-webkit-keyframes action {
+   @-webkit-keyframes action {
 	0% { transform: translateY(0); }
-	100% { transform: translateY(3rem);}
+	100% { transform: translateY(15%);}
   }
   @keyframes action {
 	0% { transform: translateY(0); }
-	100% { transform: translateY(3rem); }
+	100% { transform: translateY(15%); }
   }
 
+  @media screen and (max-width: 480px) {
+	.interest_circle#interestcircle-1 {
+		/* ai   */
+		  top: 45%;
+		  left: 42%;
+		}
+		
+		.interest_circle#interestcircle-2 {
+		/*  product  */
+		  top: 45%;
+		  left: 8%;
+		}
 
+		.interest_circle#interestcircle-3 {
+			/*    space*/
+			  top: 25%;
+			  left: 25%;
+			}
+  }
   
   
 
@@ -2011,10 +2037,17 @@ b#resumehighlight {
 	h2.resumeheading {
 		font-family: var(--special-font);
 		font-weight: 400;
-		font-size: 4rem;
+		font-size: 5rem;
 		text-transform: none;
 		text-align: center;
 	}
+		@media screen and (max-width: 480px) {
+
+			h2.resumeheading {
+				font-size: 3.5rem;
+			}
+
+		}
 
 	h3 {
 		font-size: 1.35rem;
@@ -3915,7 +3948,7 @@ b#resumehighlight {
 
 		#header {
 			min-width: 320px;
-			width: 360px;
+			width: 98vw;
 		}
 		#header #hidden-small-screen {
 			display: none;
@@ -4202,6 +4235,10 @@ b#resumehighlight {
 					background-image: url("../../images/arctic_ocean_img.png");
 				}
 
+				#banner {
+					background-image: url("../../images/universe-1566159_1920.jpg");
+				}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -4214,6 +4251,9 @@ b#resumehighlight {
 				background-image: url("../../images/arctic_ocean_img.png");
 			}
 
+			#banner {
+				background-image: url("../../images/universe-1566159_1920.jpg");
+			}
 		}
 
 		body.is-loading #banner .inner {
