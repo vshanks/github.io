@@ -42,17 +42,17 @@
 			$('form').placeholder();
 
 		// resize interests container
-			$window.on('resize', function() { 
-				var parent_height = $('#indexpage_interests_sibling_container').height();
-				elem = $('#interests_intersection_container');
-				elem.height(parent_height);
-				var circle_radius = Math.min(elem.height(), elem.width());
-				//var cw = $('.interest_circle').width();
-				$('.interest_circle').css({
-					'width': circle_radius+'px',
-					'height': circle_radius + 'px'
-				});
-			});
+			// $window.on('resize', function() { 
+			// 	var parent_height = $('#indexpage_interests_sibling_container').height();
+			// 	elem = $('#interests_intersection_container');
+			// 	elem.height(parent_height);
+			// 	var circle_radius = Math.min(elem.height(), elem.width());
+			// 	//var cw = $('.interest_circle').width();
+			// 	$('.interest_circle').css({
+			// 		'width': circle_radius+'px',
+			// 		'height': circle_radius + 'px'
+			// 	});
+			// });
 			$window.on('load', function() { 
 				var parent_height = $('#indexpage_interests_sibling_container').height();
 				elem = $('#interests_intersection_container');
