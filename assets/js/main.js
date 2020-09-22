@@ -53,16 +53,16 @@
 			// 		'height': circle_radius + 'px'
 			// 	});
 			// });
-			$window.on('load', function() { 
-				var parent_height = $('#indexpage_interests_sibling_container').height();
-				elem = $('#interests_intersection_container');
-				elem.height(parent_height);
-				var circle_radius = 0.5*Math.min(elem.height(), elem.width());
-				$('.interest_circle').css({
-					'width': circle_radius+'px',
-					'height': circle_radius + 'px'
-				});
-			});
+			// $window.on('load', function() { 
+			// 	var parent_height = $('#indexpage_interests_sibling_container').height();
+			// 	elem = $('#interests_intersection_container');
+			// 	elem.height(parent_height);
+			// 	var circle_radius = 0.5*Math.min(elem.height(), elem.width());
+			// 	$('.interest_circle').css({
+			// 		'width': circle_radius+'px',
+			// 		'height': circle_radius + 'px'
+			// 	});
+			// });
 		// // resize the interests circle
 		// 	$window.on('resize', function() {
 		// 		var cw = $('.interest_circle').width();
