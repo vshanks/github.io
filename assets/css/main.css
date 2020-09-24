@@ -4272,7 +4272,7 @@ b#resumehighlight {
 			-webkit-transform: scale(0.99);
 			-ms-transform: scale(0.99);
 			transform: scale(0.99);
-			opacity: 0;
+			opacity: 1;
 		}
 
 		body.is-loading #banner:before {
