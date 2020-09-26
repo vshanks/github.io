@@ -41,43 +41,6 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
-		// resize interests container
-			// $window.on('resize', function() { 
-			// 	var parent_height = $('#indexpage_interests_sibling_container').height();
-			// 	elem = $('#interests_intersection_container');
-			// 	elem.height(parent_height);
-			// 	var circle_radius = Math.min(elem.height(), elem.width());
-			// 	//var cw = $('.interest_circle').width();
-			// 	$('.interest_circle').css({
-			// 		'width': circle_radius+'px',
-			// 		'height': circle_radius + 'px'
-			// 	});
-			// });
-			// $window.on('load', function() { 
-			// 	var parent_height = $('#indexpage_interests_sibling_container').height();
-			// 	elem = $('#interests_intersection_container');
-			// 	elem.height(parent_height);
-			// 	var circle_radius = 0.5*Math.min(elem.height(), elem.width());
-			// 	$('.interest_circle').css({
-			// 		'width': circle_radius+'px',
-			// 		'height': circle_radius + 'px'
-			// 	});
-			// });
-		// // resize the interests circle
-		// 	$window.on('resize', function() {
-		// 		var cw = $('.interest_circle').width();
-		// 		$('.interest_circle').css({
-		// 			'height': cw + 'px'
-		// 		});
-		// 	});
-		// 	$window.on('load', function() {
-		// 		var cw = $('.interest_circle').width();
-		// 		$('.interest_circle').css({
-		// 			'height': cw + 'px'
-		// 		});
-		// 	});
-
-
 		// Header.
 			if (skel.vars.IEVersion < 9)
 				$header.removeClass('alt');
@@ -133,12 +96,12 @@
 
 							// Disable banner load event (so it doesn't fire again).
 								$window.off('load.banner');
-
 							// Append video if supported.
 								if (!skel.vars.mobile
 								&&	!skel.breakpoint('large').active
 								&&	skel.vars.IEVersion > 9)
 									$banner.append('<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="' + video + '.mp4" type="video/mp4" /><source src="' + video + '.webm" type="video/webm" /></video>');
+									//$banner.append('<video autoplay loop><source src="' + video + '.mp4" type="video/mp4" /><source src="' + video + '.webm" type="video/webm" /></video>');
 
 						});
 

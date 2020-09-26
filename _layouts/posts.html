@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://kit.fontawesome.com/62a273e8c1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/assets/css/main.css" />
+        <link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css">
+        <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
+        <link rel='icon' type='image/png' href='favicon.png' />
+	</head>
+	<body>
+
+
+    <!-- Header -->
+        <header id="header" class="alt">
+            <div class="logo"><a href="/index" style="font-family: Audiowide">VS</a></div>
+            <a id="hidden-small-screen" href="/index" class="icon fa-home"></a>
+            <a id="hidden-small-screen" href="/about">About</a>
+            <a id="hidden-small-screen" href="/resume">Resume</a>
+            <a id="hidden-small-screen" href="/portfolio">Portfolio</a>
+            <!--<a href="blog.html">Blog</a>-->
+            <a id="hidden-small-screen" href="/contact">Contact</a>
+            <a href="#menu" class="toggle"><span>Menu</span></a>
+        </header>
+
+    <!-- Nav -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="/index">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/resume">Resume</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <!--<li><a href="blog.html">Blog</a></li>-->
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="banner" style="background-image: url('/images/posts_images/{{ page.banner }}')" class="shrunk">
+            <div class="inner">
+                <h1>Blog</h1>
+                <div class="inner">
+                    <a href="#postcontent" class="icon fa-chevron-down special scrolly align-center"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="postcontent" class="wrapper style2">
+            <div class="inner">
+                <div>
+                    <div class="content">
+                        <header class="align-center">
+                            <h2>
+                                {{page.heading}}
+                            </h2>
+                        </header>
+                        <hr/>
+                        {{content}}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% assign quote_content = site.data.quotes[{{page.quote}}].content %}
+        {% assign quote_author = site.data.quotes[{{page.quote}}].author %}
+        {% include quotes_template.html content=quote_content author=quote_author %}
+
+        <footer id="footer" class="wrapper">
+            <div class="inner">
+                <div class="copyright">
+                    <a class="minorcopyright" href="/credits">Credits</a>
+                    <div class="maincopyright">
+                        <span>Made with &hearts; &amp; patience by Varsha Shankar 2020</span>
+                        <a href="https://github.com/vshanks" class="dark_main_color icon fa-github-square fa-2x"></a>
+                        <a href="http://linkedin.com/in/varshashankar" class="dark_main_color icon fa-linkedin fa-2x"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- Scripts -->
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script src="/assets/js/contact_formspree.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/assets/js/jquery.scrolly.min.js"></script>
+        <script src="/assets/js/jquery.scrollex.min.js"></script>
+        <script src="/assets/js/skel.min.js"></script>
+        <script src="/assets/js/util.js"></script>
+        <script src="/assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+        <script type="text/javascript" src="/assets/js/particle-snow.js"></script>
+        <script type="text/javascript" src="/assets/js/scroll_to_top.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="/assets/js/isotope_works.js"></script>
+	</body>
+</html>
