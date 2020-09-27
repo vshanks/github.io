@@ -7,7 +7,7 @@ tags: ["space", "industry"]
 quote: space
 ---
 
-[Habitat Marte](http://www.habitatmarte.com/) is a space analog station in Natal, Brazil that I began participating in earlier this summer.
+[Habitat Marte](http://www.habitatmarte.com/) is a space analog station [~100km west of Natal, Brazil](https://goo.gl/maps/fxbxGofz4tgraKVA6) that I began participating in earlier this summer.
 Now, let's start at the very beginning: 
 
 ### Q. What is a space analog mission?

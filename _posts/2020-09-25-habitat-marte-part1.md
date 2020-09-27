@@ -9,7 +9,7 @@ quote: space
 
 The summer of 2020 was a turning point for a bundle of reasons - Covid19 being the most obvious. Another momentous event for me was some friends introducing me to Professor Julio Rezende and his team at Habitat Marte in Brazil. 
 
-[Habitat Marte](<http://www.habitatmarte.com/>) is a space analog station in Natal, Brazil. The missions that were generally conducted with in-person participants, transformed to being completely virtual this summer - and although that transformation happened for reasons that are less than ideal (aka a pandemic), I was very grateful and humbled by the opportunity to participate. 
+[Habitat Marte](<http://www.habitatmarte.com/>) is a space analog station located in the municipality of [Caiçara do Rio do Vento in Brazil](https://goo.gl/maps/fxbxGofz4tgraKVA6). It is ~100km from Natal, capital of the state of Rio Grande do Norte. The missions that were generally conducted with in-person participants, transformed to being completely virtual this summer - and although that transformation happened for reasons that are less than ideal (aka a pandemic), I was very grateful and humbled by the opportunity to participate. 
 
 We've covered the whats and whys of space analog missions [before in a previous post]({% post_url 2020-09-25-space-analog-missions %}).
 
