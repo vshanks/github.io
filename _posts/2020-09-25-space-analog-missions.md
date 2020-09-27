@@ -34,3 +34,16 @@ As a product person and an AI practitioner, I care because it is about building 
 
 ### Q. Did you do it because you get called an analog mission astronaut?
 Maybe. It really is rather cool!
+
+### Q. Are there other analog missions?
+Yes! And they are all over the world. This is a non-exhaustive list:
+
+| Habitat        | Studying           |
+| ------------- |:-------------|
+| [Habitat Marte](http://www.habitatmarte.com/) | Food production and geological similarity | 
+| [Hera](https://www.nasa.gov/analogs/hera) | Isolation and confinement |
+| [Hi-Seas](https://hi-seas.org/) | Isolation and geological similarity |
+| [MDRS](http://mdrs.marssociety.org/) | Isolation and geological similarity |
+| [NEEMO](https://www.nasa.gov/mission_pages/NEEMO/index.html) | Undersea analog for space exploration | 
+| [CAVES](http://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/CAVES_and_Pangaea/What_is_CAVES) | Behavioural adaptations in high risk underground terrain |
+| [FMARS](http://fmars.marssociety.org/) | Geological similarity |

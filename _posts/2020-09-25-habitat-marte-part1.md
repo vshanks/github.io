@@ -54,4 +54,4 @@ To give you a taste for the range of topics covered:
 * Davi Souza, a student of Electrical Engineering at the Federal University of Rio Grande do Norte, covered the challenges and advances in aquaponic greenhouses (that's hydroponics + fish). Apart from having a separate greenhouse within the habitat, embedding miniature versions into the design of every facility was noted as an important feature, given the limited real estate in space habitats. Sensor based control of LED lighting for plant growth, monitoring of crops for pests and health enabled through automation to reduce the room for human error is the real game changer to this critical component of the habitat. 
 
 ### Q. Where can I find out more? 
-This article only touches the tip of the iceberg. All of our sessions were recorded and are available on [Youtube](https://www.youtube.com/HabitatMarte). 
+This article only touches the tip of the iceberg. All our sessions were recorded and are available on [Youtube](https://www.youtube.com/HabitatMarte). 
