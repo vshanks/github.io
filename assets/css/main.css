@@ -2295,7 +2295,8 @@ b#resumehighlight {
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				/* padding: 0; */
+				padding: 0 5% 0 5%;
 			}
 
 		}
