@@ -11,7 +11,7 @@ thumbnail: "/images/posts_images/habitat_marte_43.png"
 What are space analogs? Why are they important? and more in this post ...
 <!--more-->
 
-[Habitat Marte](http://www.habitatmarte.com/) is a space analog station [~100km west of Natal, Brazil](https://goo.gl/maps/fxbxGofz4tgraKVA6) that I began participating in earlier this summer.
+[Habitat Marte](http://www.habitatmarte.com/) is a space analog station [~100km west of Natal, Brazil](https://goo.gl/maps/fxbxGofz4tgraKVA6) that I began participating in earlier this summer and was my starting point into the world of space analogs. 
 
 Now, let's start at the very beginning: 
 
