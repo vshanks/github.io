@@ -28,7 +28,9 @@ quote: travel
 					{% for post in site.posts %}
 					<div class="city">
 						<a href="{{ post.url }}">
-						<div class="post-description">{{ post.excerpt }}</div>
+						<div class="post-description">
+							<p>{{ post.excerpt | strip_html }}</p>
+						</div>
 						<div class="city-image">
 							<img src={{ post.thumbnail }} alt="city">
 						</div>
