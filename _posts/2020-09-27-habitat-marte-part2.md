@@ -1,11 +1,15 @@
 ---
 layout: posts
-title:  Habitat Marte
+title:  Habitat Marte Part 2
 heading: My second space analog mission
 banner: space_analog.jpg
 tags: ["space", "industry"]
 quote: space
+thumbnail: "/images/posts_images/habitat_marte_47.jpeg"
 ---
+
+A space design virtual analog mission at Habitat Marte and more ...
+<!--more-->
 
 This post is under construction.
 

@@ -6,7 +6,7 @@ quote: danpink
 
 <!-- Banner -->
 
-<section id="banner" style="background-image: url('images/nasa-launch.jpg')" class="shrunk">
+<section id="banner" style="background-image: url('/images/nasa-launch.jpg')" class="shrunk">
 	<div class="inner">
 		<h1>Portfolio</h1>
 		<div class="inner">
@@ -16,335 +16,108 @@ quote: danpink
 </section>
 
 <section id="pp" class="wrapper style2">
-	<div class="portfoliocontainer">
-
-		<ul id="filters" class="clearfix">
-			<li><span class="filter active" data-filter=".projects, .card, .icon, .logo, .web">All</span></li>
-			<li><span class="filter" data-filter=".projects">Projects</span></li>
-			<li><span class="filter" data-filter=".card">Card</span></li>
-			<li><span class="filter" data-filter=".icon">Icon</span></li>
-			<li><span class="filter" data-filter=".logo">Logo</span></li>
-			<li><span class="filter" data-filter=".web">Web</span></li>
-		</ul>
-
-		<div id="portfoliolist">
-			
-			<div class="portfolio projects" data-cat="projects">
-				<div class="portfolio-wrapper">				
-					<img src="images/portfolios/projects/bird.png" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Undergraduate thesis</a>
-							<span class="text-category">Projects</span>
+	<div class="inner">
+		<div class="row">
+			<div class="8u">
+				<div class="row">
+					<div class="12u$"><h4>Filter</h4></div>
+					<div class="12u">
+						<div id="filters" class="portolio-button-group">
+							<button class="button alt is-checked" data-filter="*">show all</button>
+							<button class="button alt" data-filter=".space">Space</button>
+							<button class="button alt" data-filter=".product">Product</button>
+							<button class="button alt" data-filter=".research">Research</button>
+							<button class="button alt" data-filter=".ai">AI</button>
+							<!--<button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+							<button class="button" data-filter=":not(.transition)">not transition</button>
+							<button class="button" data-filter=".space:not(.transition)">space but not transition</button>
+							<button class="button" data-filter="numberGreaterThan50">number > 50</button>
+							<button class="button" data-filter="ium">name ends with &ndash;ium</button>-->
 						</div>
-						<div class="label-bg"></div>
 					</div>
 				</div>
-			</div>				
-
-			<div class="portfolio projects" data-cat="projects">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/projects/be521.png" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Course project BCI</a>
-							<span class="text-category">Projects</span>
+			</div>
+			<div class="4u">
+				<div class="row">
+					<div class="12u$"><h4>Sort</h4></div>
+					<div class="12u">
+						<div id="sorts" class="portolio-button-group">  
+							<button class="button alt is-checked" data-sort-by="date">Newest First</button>
+							<button class="button alt" data-sort-by="symbol">name</button>
 						</div>
-						<div class="label-bg"></div>
 					</div>
 				</div>
-			</div>		
-			
-			<div class="portfolio projects" data-cat="projects">
-				<div class="portfolio-wrapper">						
-					<img src="images/portfolios/projects/cis520.png" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Course project ML</a>
-							<span class="text-category">Projects</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>				
-			
-			<div class="portfolio projects" data-cat="projects">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/projects/lir2.png" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Course project UKF</a>
-							<span class="text-category">Projects</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>	
-						
-			<div class="portfolio projects" data-cat="projects">
-				<div class="portfolio-wrapper">
-					<img src="images/portfolios/projects/lir4.png" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Course project SLAM</a>
-							<span class="text-category">Projects</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>			
-			
-			<div class="portfolio projects" data-cat="projects">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/projects/lir5.png" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Course project Planning</a>
-							<span class="text-category">Projects</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>	
-			
-			<div class="portfolio projects" data-cat="projects">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/projects/rascal.png" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Report NASA Rascal</a>
-							<span class="text-category">Projects</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>	
-			
-			<!--
-			<div class="portfolio logo" data-cat="logo">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/logo/1.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">KittyPic</a>
-							<span class="text-category">Logo</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>																																							
-			
-			<div class="portfolio app" data-cat="app">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/app/2.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Graph Plotting</a>
-							<span class="text-category">APP</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>														
-			
-			<div class="portfolio card" data-cat="card">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/card/2.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">QR Quick Response</a>
-							<span class="text-category">Business card</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>				
-
-			<div class="portfolio logo" data-cat="logo">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/logo/6.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Mobi Sock</a>
-							<span class="text-category">Logo</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>																	
-
-			<div class="portfolio logo" data-cat="logo">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/logo/7.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Village Community Church</a>
-							<span class="text-category">Logo</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>													
-			
-			<div class="portfolio icon" data-cat="icon">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/icon/4.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Domino's Pizza</a>
-							<span class="text-category">Icon</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>							
-
-			<div class="portfolio web" data-cat="web">
-				<div class="portfolio-wrapper">						
-					<img src="images/portfolios/web/3.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Backend Admin</a>
-							<span class="text-category">Web design</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>																								
-
-			<div class="portfolio icon" data-cat="icon">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/icon/1.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Instagram</a>
-							<span class="text-category">Icon</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>				
-			
-			<div class="portfolio web" data-cat="web">
-				<div class="portfolio-wrapper">						
-					<img src="images/portfolios/web/2.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Student Guide</a>
-							<span class="text-category">Web design</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>																	
-
-			<div class="portfolio icon" data-cat="icon">
-				<div class="portfolio-wrapper">
-					<img src="images/portfolios/icon/2.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Scoccer</a>
-							<span class="text-category">Icon</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>																																																																
-
-			<div class="portfolio icon" data-cat="icon">
-				<div class="portfolio-wrapper">						
-					<img src="images/portfolios/icon/5.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">3D Map</a>
-							<span class="text-category">Icon</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>			
-			
-			<div class="portfolio web" data-cat="web">
-				<div class="portfolio-wrapper">						
-					<img src="images/portfolios/web/1.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Note</a>
-							<span class="text-category">Web design</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>									
-			
-			<div class="portfolio logo" data-cat="logo">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/logo/3.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Native Designers</a>
-							<span class="text-category">Logo</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>																	
-
-			<div class="portfolio logo" data-cat="logo">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/logo/4.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Bookworm</a>
-							<span class="text-category">Logo</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>																												
-			
-			<div class="portfolio icon" data-cat="icon">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/icon/3.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Sandwich</a>
-							<span class="text-category">Icon</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>																								
-			
-			<div class="portfolio card" data-cat="card">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/card/3.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Reality</a>
-							<span class="text-category">Business card</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>	
-
-			<div class="portfolio logo" data-cat="logo">
-				<div class="portfolio-wrapper">			
-					<img src="images/portfolios/logo/2.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Speciallisterne</a>
-							<span class="text-category">Logo</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>			-->	
-										
-			
+			</div>
 		</div>
-		
-	</div><!-- container -->
-	
-	</section>
+		<div class="grid">
+			<div class="element-item space" data-category="space">
+				<a href={% post_url 2020-09-27-habitat-marte-part2 %} />
+				<div class="portfolio-circle">
+					<img class="portfolio-circle-fill" src="/images/portfolios/projects/space/marte.png" alt="">
+				</div>
+				<p class="symbol">Habitat Marte</p>
+				<p class="number">Space analog mission design themed</p>
+				<p hidden class="year">2020</p>
+			</div>
+			<div class="element-item space" data-category="space">
+				<a href={% post_url 2020-09-27-habitat-marte-part1 %} />
+				<div class="portfolio-circle">
+					<img class="portfolio-circle-fill" src="/images/portfolios/projects/space/marte.png" alt="">
+				</div>
+				<p class="symbol">Habitat Marte</p>
+				<p class="number">Space analog mission recycling themed</p>
+				<p hidden class="year">2020</p>
+			</div>
+			<div class="element-item product" data-category="product">
+				<a href="#"/>
+				<div class="portfolio-circle">
+					<img class="portfolio-circle-fill" src="/images/portfolios/projects/product/cis520.png" alt="">
+				</div>
+				<p class="symbol">Roadmap</p>
+				<p class="number">Creating a template for a B2C roadmap</p>
+				<p hidden class="year">2019</p>
+			</div>
+			<div class="element-item ai space research" data-category="ai">
+				<a href="/resources/rasc-al_2012.pdf" target="_blank"/>
+				<div class="portfolio-circle">
+					<img class="portfolio-circle-fill" src="/images/portfolios/projects/space/rascal.png" alt="">
+				</div>
+				<p class="symbol">RASC-AL</p>
+				<p class="number">NASA sample return challenge 2013</p>
+				<p hidden class="year">2013</p>
+			</div>
+			<div class="element-item ai research" data-category="research">
+				<a href="https://ieeexplore.ieee.org/abstract/document/6696215" target="_blank"/>
+				<div class="portfolio-circle">
+					<img class="portfolio-circle-fill" src="/images/portfolios/projects/research/cobot.png" alt="">
+				</div>
+				<p class="symbol">Cobot</p>
+				<p class="number">Publication on cobot for visual object selection</p>
+				<p hidden class="year">2013</p>
+			</div>
+			<div class="element-item ai" data-category="ai">
+				<a href="/resources/2009_birdrecognitiondetailedthesis.pdf" target="_blank"/>
+				<div class="portfolio-circle">
+					<img class="portfolio-circle-fill" src="/images/portfolios/projects/ai/bird.png" alt="">
+				</div>
+				<p class="symbol">Thesis</p>
+				<p class="number">Undergraduate thesis on bird recognition</p>
+				<p hidden class="year">2009</p>
+			</div>
+			<div class="element-item ai space product research" data-category="ai">
+				<a href="#"/>
+				<div class="portfolio-circle">
+					<img class="portfolio-circle-fill" src="/images/logo.png" style="background: var(--regular-background);" alt="">
+				</div>
+				<p class="symbol">More</p>
+				<p class="number">More coming soon!</p>
+				<p hidden class="year">2020</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{% assign quote_content = site.data.quotes[page.quote].content %}
+{% assign quote_author = site.data.quotes[page.quote].author %}
+{% include quotes_template.html content=quote_content author=quote_author %}

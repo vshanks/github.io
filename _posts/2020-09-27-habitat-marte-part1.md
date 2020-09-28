@@ -1,11 +1,14 @@
 ---
 layout: posts
-title:  Habitat Marte
+title:  Habitat Marte Part 1
 heading: My first space analog mission
 banner: space_analog.jpg
 tags: ["space", "industry"]
 quote: space
+thumbnail: "/images/posts_images/habitat_marte_43.png"
 ---
+What does a virtual space analog mission at Habitat Marte look like and more ...
+<!--more-->
 
 The summer of 2020 was a turning point for a bundle of reasons - Covid19 being the most obvious. Another momentous event for me was some friends introducing me to Professor Julio Rezende and his team at Habitat Marte in Brazil. 
 
@@ -42,7 +45,7 @@ I'm all about documenting things - Here are some links to the material that I pr
 * [Youtube recording](https://www.youtube.com/watch?v=1kD_FpYEfxA)
 &#8681;
 
-It's rough, and it improves for my next mission which you can read about [here]({% post_url 2020-09-25-habitat-marte-part2 %}). 
+It's rough, and it improves for my next mission which you can read about [here]({% post_url 2020-09-27-habitat-marte-part2 %}). 
 <div class="youtube-container">
     <iframe class="youtube-iframe" src="https://www.youtube.com/embed/1kD_FpYEfxA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

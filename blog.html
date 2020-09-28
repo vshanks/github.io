@@ -18,39 +18,37 @@ quote: travel
 
 <section id="blogstart" class="wrapper style2">
 	<div class="inner">
-		<div class="box">
-			<div class="content">
-				<div class="row 200%">
-					<div class="6u">
-						<header class="align-center">
-							<h3>Writing Coming Soon...Until then</h3>
-						</header>
-						<hr />
-						<p>Once upon a moment, there was a firefly alien caught up in the 
-						microsecond that would span her entire lifespan. She loved theatre, 
-						but knew she would never get to see both the beginning and end of any 
-						play. She would grow up (a nanosecond later) to invent nanoplants - 
-						implants that would speed up any conventional film or art theatre 
-						(no musicals - because that wasn't her scene) into a fraction of a nanosecond. 
-						</p>
-						<!--{% for tag in site.categories %}
-						<h3>{{ tag[0] }}</h3>
-						<ul>
-							{% for post in tag[1] %}
-							<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-							{% endfor %}
-						</ul>
-						{% endfor %}-->
+		<header class="align-center">
+			<h3>My Writing</h3>
+		</header>
+		<div class="section group">
+			<div class="col span_2_of_3">
+				<main class="main">
+				<div class="card-container">
+					{% for post in site.posts %}
+					<div class="city">
+						<a href="{{ post.url }}">
+						<div class="post-description">{{ post.excerpt }}</div>
+						<div class="city-image">
+							<img src={{ post.thumbnail }} alt="city">
+						</div>
+						<div class="description">
+							<p class="post-title">{{ post.title }}</p>
+						</div>
+						</a>
 					</div>
-					{% if page.things_i_like %}
-					{% include {{ page.things_i_like }} %}
-					{% endif %}
-				</div>	
+					{% endfor %}
+				</div>
+				</main>
+			</div>
+			<div class="col span_1_of_3">
+				{% if page.things_i_like %}
+				{% include {{ page.things_i_like }} %}
+				{% endif %}
 			</div>
 		</div>
 	</div>
 </section>
-
 
 {% assign quote_content = site.data.quotes[page.quote].content %}
 {% assign quote_author = site.data.quotes[page.quote].author %}

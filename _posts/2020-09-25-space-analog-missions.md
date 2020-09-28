@@ -5,7 +5,11 @@ heading: Space Analog Missions
 banner: space_analog.jpg
 tags: ["space", "industry"]
 quote: space
+thumbnail: "/images/posts_images/habitat_marte_43.png"
 ---
+
+What are space analog missions? Why are they important ? and more ...
+<!--more-->
 
 [Habitat Marte](http://www.habitatmarte.com/) is a space analog station [~100km west of Natal, Brazil](https://goo.gl/maps/fxbxGofz4tgraKVA6) that I began participating in earlier this summer.
 Now, let's start at the very beginning: 
