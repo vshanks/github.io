@@ -41,13 +41,13 @@ Each centre chief presents their research on their chosen facility. This gives e
 In this mission, we focussed on the architectural design of the habitat. This included designing the layouts, evaluating materials, machinery and locations of the various facilities within the habitat.
 
 ### Q. Does a virtual analog mission offer the same experience as an in-person one?
-Like all things virtual, I'm sure that it does not Given that [my first mission]({% post_url 2020-09-27-habitat-marte-part1 %}) was this summer under the cloud of Covid-19, virtual missions are the only sort that I've experienced so far. The disadvantage of course, is that isolation and confinement studies, food production studies and any that rely on geological similarity are not feasible in a fully virtual setting. I found that it really exercised my imagination: a skill that often deteriorates during adulthood. 
+Like all things virtual, I'm sure that it does not. Given that [my first mission]({% post_url 2020-09-27-habitat-marte-part1 %}) was this summer under the cloud of Covid-19, virtual missions are the only sort that I've experienced so far. The disadvantage of course, is that isolation and confinement studies, food production studies and any that rely on geological similarity are not feasible in a fully virtual setting. I found that it really exercised my imagination: a skill that often deteriorates during adulthood. 
 
 Are virtual missions a viable replacement for in-person missions - definitely not, but they are the next best thing.
 
 ### Q. What were some of your learnings from designing the launch centre?
 For this mission, I chose to focus on the following areas of the launch centre
-* Categorizing operations within the launch centre
+* Categorizing operations
 * Technological considerations within the facility
   * Fuel system options
   * Construction and maintenance of landing pad facilities
@@ -58,7 +58,7 @@ For this mission, I chose to focus on the following areas of the launch centre
   * 3D printed over-ground habitat
   * Hybrid model with facilities split between over and under-ground regions
 * 3D printing materials 
-* Machinery and vertical scaling during exploration using robots
+* Robotic exploration of caves via vertical scaling
 
 ### Q. That sounds interesting! Is there more?
 Absolutely! Here are some links to the materials that I presented:
@@ -72,8 +72,8 @@ Absolutely! Here are some links to the materials that I presented:
 
 <br/>
 ### Q. What are some other areas that were discussed?
-* Yash Rathod, a student of architecture at Maharashtra Institute of Technology, discussed various types of Martian habitat construction viz. 3D printed, ice, sulphur concrete, pre-fabricated self-deployable and inflatable. We explored an inflatable habitat design with hydraulically powered robotic columns serving as a skeleton. Levels in each facility demarcated function such as facility function versus kitchen and greenhouses spaces.
-* Jas Purewal, an astrophysicist and senior scientist, walked us through construction mechanisms using reinforced sulphur concrete. We discussed the possibility of robotic build outs of the skeletons of the structures, and arriving humans installing an airtight membrane within the structure. Given the vast quantities of food and water that will be required for human sustenance, we explored growing algae, mushrooms and insects in artificial lighting and preserving them within food stores.
+* Yash Rathod, a student of architecture at Maharashtra Institute of Technology, discussed various types of Martian habitat construction viz. 3D printed, ice, sulphur concrete, pre-fabricated self-deployable and inflatable structures. We explored an inflatable habitat design with hydraulically powered robotic columns serving as a skeleton. Levels in each facility demarcated facility function from kitchen and greenhouses spaces.
+* Jas Purewal, an astrophysicist and senior scientist, walked us through construction techniques using reinforced sulphur concrete. We discussed the possibility of robotic build outs of the skeletons of these structures, and arriving humans installing an airtight membrane within the structure. Given the vast quantities of food and water that will be required for human sustenance, we explored growing algae, mushrooms and insects in artificial lighting and preserving them within food stores.
 
 ### Q. Where can I find out more? 
-This article only touches the tip of the iceberg. All our sessions were recorded and are available on [Youtube](https://www.youtube.com/HabitatMarte). I'm always happy to chat about my experience - feel free to reach out to me via the [usual channels](/contact).
+This article represents the first green shoots. All our sessions were recorded and are available on [Youtube](https://www.youtube.com/HabitatMarte). I'm always happy to chat about my experience - feel free to reach out to me via the [usual channels](/contact).
