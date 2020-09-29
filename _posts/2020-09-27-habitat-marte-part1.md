@@ -48,7 +48,7 @@ I'm all about documenting things - Here are some links to the material that I pr
 * [Youtube recording](https://www.youtube.com/watch?v=1kD_FpYEfxA)
 &#8681;
 
-It's rough, and it improves for my next mission which you can read about [here]({% post_url 2020-09-27-habitat-marte-part2 %}). 
+It's rough, and it improves for my next mission which you can read about [here]({% post_url 2020-09-28-habitat-marte-part2 %}). 
 <div class="youtube-container">
     <iframe class="youtube-iframe" src="https://www.youtube.com/embed/1kD_FpYEfxA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
