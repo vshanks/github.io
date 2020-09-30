@@ -39,8 +39,17 @@ My role was chief of the launch centre - an area within the habitat that ships w
 * Construction and maintenance of landing pad facilities
 * Mining in-situ resources for oxygen, water and fuel generation
 * Robotic swarm technology to enable these functions with implied redundancy
+* Solid, liquid and hybrid fuel systems
 
 Each centre chief presents their research on their chosen facility. This gives everyone in the mission an opportunity to learn about techniques, protocols and technologies in adjacent realms. 
+
+### Q. That's a long list - what's the biggest highlight?
+My biggest take away was mining in-situ resources for fuel, water and oxygen. Martian regolith can be used as a source of oxygen, hydrogen and water. On Earth, the high mass of mining equipment allows the excavator's blade to penetrate the ground due to reaction force<sup>1,2</sup>. On Mars - we have two problems - a) Mars has about 38% of Earth's gravity and b) We measure the cost of lifting things to Mars in kilograms because it's extremely expensive. The RASSOR excavator<sup>2</sup> is intelligently designed to skirt around these limitations. It does not rely on sheer weight to dig into regolith. It consists of toothed drums on the periphery for digging and hollow drums for storage in the middle. As the toothed drums rotate, the dug up regolith gets loaded into the storage drums. The current concept does not currently handle large chunks of ice that are likely to be encountered in regolith. 
+
+I explored the benefit that a swarm of RASSORs would bring to  large scale production. Water and oxygen production facilities will be critical to a habitat - the decentralized control offered by a swarm would protect against mission failure by redundancy. It would be interesting to explore what the trade-off between size reduction of the individual RASSOR and quantity of excavated material looks like, if we wanted to think of a truly scaleable swarm. 
+
+The next part of the system would heat the excavated regolith to a high temperature to extract H<sub>2</sub>O. This H<sub>2</sub>O would then be electrolyzed into H<sub>2</sub> and O<sub>2</sub> using the Sabatier reaction. H<sub>2</sub> should be stored cryogenically as CH<sub>4</sub> for stability by combining it with CO<sub>2</sub>, which the Martian atmosphere is abundant in. MOXIE<sup>3</sup>, an experiment onboard the ongoing Perseverance mission<sup>4</sup>, will test out solid state electrolysis of CO<sub>2</sub> to produce O<sub>2</sub>. CH<sub>4</sub> and O<sub>2</sub> would both be stored cryogenically for use within the habitat. 
+
 
 ### Q. This sounds cool! Is there proof?
 I'm all about documenting things - Here are some links to the material that I presented at my first mission:
@@ -61,3 +70,11 @@ To give you a taste for the range of topics covered:
 
 ### Q. Where can I find out more? 
 This article only touches the tip of the iceberg. All our sessions were recorded and are available on [Youtube](https://www.youtube.com/HabitatMarte). I'm always happy to chat about my experience - feel free to reach out to me via the [usual channels](/contact).
+
+
+### References
+
+1. Singh, S. (1995, May). Learning to predict resistive forces during robotic excavation. In Proceedings of 1995 IEEE International Conference on Robotics and Automation (Vol. 2, pp. 2102-2107). IEEE.
+2. [RASSOR Excavator](https://technology.nasa.gov/patent/KSC-TOPS-7)
+3. [MOXIE](https://mars.nasa.gov/mars2020/spacecraft/instruments/moxie/for-scientists/)
+4. [Perseverance mission](https://mars.nasa.gov/mars2020/mission/overview/)
