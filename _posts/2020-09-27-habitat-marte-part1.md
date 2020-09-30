@@ -65,7 +65,8 @@ It's rough, and it improves for my next mission which you can read about [here](
 <br/>
 ### Q. What are some other things that you learnt about?
 To give you a taste for the range of topics covered:
-* Dr. Susan Jewell, CEO of the Mars Academy, briefed us on the advances in A/R and mixed reality for telemedicine. We covered 3D printing of spare parts powered by solar energy as well as the limitations of medicine in space - surgery is currently not feasible because anesthesiology in microgravity environments is an unsolved problem. 5G will be critical to the new world of telemedicine. 
+
+* Dr Susan Ip-Jewell, MD, DCEG  is the CEO/Co-founder, MMAARS, Inc (Mars-Moon Astronautics Academy & Research Science)<sup>5</sup>, briefed us on the advances in A/R and mixed reality for telemedicine. We covered 3D printing of spare parts powered by solar energy as well as the limitations of medicine in space - surgery is currently not feasible because anesthesiology in microgravity environments is an unsolved problem. 5G will be critical to the new world of telemedicine. 
 * Davi Souza, a student of Electrical Engineering at the Federal University of Rio Grande do Norte, covered the challenges and advances in aquaponic greenhouses (that's hydroponics + fish). Apart from having a separate greenhouse within the habitat, miniature versions embedded into the design of every facility was noted as an important feature, given the limited real estate in space habitats. Sensor based control of LED lighting for plant growth, monitoring crops for pests and health checks, enabled through automation to reduce the room for human error, are the real game changers to this critical component of the habitat. 
 
 ### Q. Where can I find out more? 
@@ -78,3 +79,4 @@ This article only touches the tip of the iceberg. All our sessions were recorded
 2. [RASSOR Excavator](https://technology.nasa.gov/patent/KSC-TOPS-7)
 3. [MOXIE](https://mars.nasa.gov/mars2020/spacecraft/instruments/moxie/for-scientists/)
 4. [Perseverance mission](https://mars.nasa.gov/mars2020/mission/overview/)
+5. [Dr Susan Ip-Jewell](https://www.linkedin.com/in/susanipjewell/) is  pioneering the first Martian-Lunar Analog Astronautics Settlement and creating an analog training community for over 100 analog astronauts living and working in an austere Isolated and Confined Environment (ICE). [MMAARS](www.MMAARS.com) is located in the Mojave Desert, California near Mojave Spaceport and NASA's Neil Armstrong Research Center. The Settlement will include a Space Clinic for testing and developing AvatarMEDIC, a humanoid telerobotic surgeon integrating spatial computing, AI, and multi-haptic sensors.  
