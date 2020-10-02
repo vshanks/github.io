@@ -12,7 +12,7 @@ Space design for a Martian habitat during Mission 47 at Habitat Marte and much m
 
 Mission 47 was my second virtual space analog mission at Habitat Marte. In this post, I will relate my learnings from it in a format that I hope has become familiar: question and answer style.
 
-If this is the first time you're encountering the terms space analogs or analog missions, flip over to [Space Analog Missions]({% post_url 2020-09-25-space-analog-missions %}) on the whats and whys of space analog missions. The remainder of this article will make a lot more sense! In my first virtual space analog mission at Habitat Marte, we focussed on recycling and sustainability in a Martian habitat. You can read more about the mission in my [previous post here]({% post_url 2020-09-27-habitat-marte-part1 %}).
+If this is the first time you're encountering the terms space analogs or analog missions, flip over to [Space Analog Missions]({% post_url 2020-09-25-space-analog-missions %}) on the whats and whys of space analog missions. The remainder of this article will make a lot more sense! In my first virtual space analog mission at Habitat Marte, we focussed on recycling and sustainability in a Martian habitat. You can read more about the mission in my [post about mission 43 at Habitat Marte]({% post_url 2020-09-27-habitat-marte-part1 %}).
 
 If you're familiar with how missions at Habitat Marte are structured and run, [skip ahead to the details of Mission 47](#q-what-was-the-theme-of-mission-47-at-habitat-marte). 
 
@@ -38,10 +38,10 @@ My role was chief of the launch centre - an area within the habitat that ships w
 Each centre chief presents their research on their chosen facility. This gives everyone in the mission an opportunity to learn about techniques, protocols and technologies in adjacent realms. 
 
 ### Q What was the theme of Mission 47 at Habitat Marte?
-In this mission, we focussed on the architectural design of the habitat. This included designing the layouts, evaluating materials, machinery and locations of the various facilities within the habitat.
+In this mission, we focussed on architectural design of the habitat. This included designing the layouts, evaluating materials, machinery and locations of the various facilities within the habitat.
 
 ### Q. Does a virtual analog mission offer the same experience as an in-person one?
-Like all things virtual, I'm sure that it does not. Given that [my first mission]({% post_url 2020-09-27-habitat-marte-part1 %}) was this summer under the cloud of Covid-19, virtual missions are the only sort that I've experienced so far. The disadvantage, of course, is that isolation and confinement studies, food production studies and any that rely on geological similarity are not feasible in a fully virtual setting. I found that it really exercised my imagination: a skill that often deteriorates during adulthood. 
+Like all things virtual, I'm sure that it does not. Given that [my first mission]({% post_url 2020-09-27-habitat-marte-part1 %}) was this summer under the cloud of Covid-19, virtual missions are the only sort that I've experienced so far. The disadvantage, of course, is that most studies - isolation and confinement, food production and any that rely on geological similarity are not feasible in a fully virtual setting. I found that it really exercised my imagination: a skill that often deteriorates during adulthood. 
 
 Are virtual missions a viable replacement for in-person missions - definitely not, but they are the next best thing.
 
@@ -60,6 +60,11 @@ For this mission, I chose to focus on the following areas of the launch centre
 * 3D printing materials 
 * Robotic exploration of caves via vertical scaling
 
+
+### Q. That's a long list - what's the biggest highlight?
+TBW
+
+
 ### Q. That sounds interesting! Is there more?
 Absolutely! Here are some links to the materials that I presented:
 * [My presentation](https://drive.google.com/file/d/1FZfaoT_gzVr_iGTRGOJWg8PtxVjDwkd2/view?usp=sharing)
@@ -72,8 +77,13 @@ Absolutely! Here are some links to the materials that I presented:
 
 <br/>
 ### Q. What are some other areas that were discussed?
-* Yash Rathod, a student of architecture at Maharashtra Institute of Technology, discussed various types of Martian habitat construction viz. 3D printed, ice, sulphur concrete, pre-fabricated self-deployable and inflatable structures. We explored an inflatable habitat design with hydraulically powered robotic columns serving as a skeleton. Levels in each facility demarcated facility function from kitchen and greenhouses spaces.
-* Jas Purewal, an astrophysicist and senior scientist, walked us through construction techniques using reinforced sulphur concrete. We discussed the possibility of robotic build-outs of the skeletons of these structures, and arriving humans installing an airtight membrane within the structure. Given the vast quantities of food and water that will be required for human sustenance, we explored growing algae, mushrooms and insects in artificial lighting and preserving them within food stores.
+
+* Yash Rathod<sup>1</sup>, a student of architecture at Maharashtra Institute of Technology, discussed various types of Martian habitat construction viz. 3D printed, ice, sulphur concrete, pre-fabricated self-deployable and inflatable structures. We explored an inflatable habitat design with hydraulically powered robotic columns serving as a skeleton. Levels in each facility demarcated facility function from kitchen and greenhouses spaces.
+* Jas Purewal<sup>2</sup>, an astrophysicist and senior scientist, walked us through construction techniques using reinforced sulphur concrete. We discussed the possibility of robotic build-outs of the skeletons of these structures, and arriving humans installing an airtight membrane within the structure. Given the vast quantities of food and water that will be required for human sustenance, we explored growing algae, mushrooms and insects under artificial light and preserving them within food stores.
 
 ### Q. Where can I find out more? 
 This article represents the first green shoots. All our sessions were recorded and are available on [Youtube](https://www.youtube.com/HabitatMarte). I'm always happy to chat about my experience - feel free to reach out to me via the [usual channels](/contact).
+
+### References
+1. [Yash Rathod's Linkedin](https://www.linkedin.com/in/yash-rathod-434742172/)
+2. [Jas Purewal's Linkedin](http://linkedin.com/in/jas-p-194413b8)
