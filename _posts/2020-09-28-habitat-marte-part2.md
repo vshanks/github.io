@@ -62,8 +62,10 @@ For this mission, I chose to focus on the following areas of the launch centre
 
 
 ### Q. That's a long list - what's the biggest highlight?
-TBW
+I cannot impress upon you how remarkably awesome this particular exploration was - so I hope that you'll forgive my build up. This time around, I explored the feasibility of underground habitats within lava tubes<sup>1</sup>. Imagine a volcano erupting and masses of molten rock aka lava pouring out. Beneath the vast rivers of lava on the surface, exist tubes or conduits of further vast rivers of lava. The underground tubes supply lava to the surface. Once the eruption has receded, the tubes remain - forming an intricate interconnected underground cave system. Many such tubes exist on Earth too! On Mars, these tubes are much larger than what we typically find on Earth due to the lower gravity. Living underground on Mars has some distinct advantages i.e. protection from radiation, micrometeorites and dust storms. A further advantage is temperature stability (unlike the rollercoaster 20 to -73&#8451; that is the Martian surface). But it's not all roses and sunshine in the caves. Very often, old lava flows will leave behind stalactites. Sharp rocky material, boulders and uneven flooring will prove to be a significant barrier to underground habitats. A final challenge will be the absence of sunlight. Skylights do provide a source of light into the caves, but we will need to find a clever system to redirect this light to penetrate further within the cave system (closing scene of the Mummy anyone?). 
 
+Another interesting concern around underground habitats is robotic exploration. 
+Ingenuity<sup>2</sup> onboard the Perseverance mission<sup>3</sup> will be the first time we test controlled flight on another planet. Imagine a climbing robot - one that can scale walls and rocky surfaces near vertically - Enter LEMUR<sup>4</sup>. The LEMUR system of robots have 4 limbs; each limb having 16 fingers,  covered in 250 tiny fishhooks that allow it to grip rough rocky walls and scale near-vertically. Now, what if we put these two together - an ultra-light robot with large rotor blades, and limbs with tiny fishhooks so that it can crawl through tubes that are too dangerous for it to fly through. Robotic exploration to vet lava tubes for human habitation will be the deciding factor for this particular choice of habitat. One could conceive of life sustained in lava tubes using inflatable and self-deployable habitat modules such as the Bigelow Aerospace's B330<sup>5</sup>. 
 
 ### Q. That sounds interesting! Is there more?
 Absolutely! Here are some links to the materials that I presented:
@@ -78,12 +80,18 @@ Absolutely! Here are some links to the materials that I presented:
 <br/>
 ### Q. What are some other areas that were discussed?
 
-* Yash Rathod<sup>1</sup>, a student of architecture at Maharashtra Institute of Technology, discussed various types of Martian habitat construction viz. 3D printed, ice, sulphur concrete, pre-fabricated self-deployable and inflatable structures. We explored an inflatable habitat design with hydraulically powered robotic columns serving as a skeleton. Levels in each facility demarcated facility function from kitchen and greenhouses spaces.
-* Jas Purewal<sup>2</sup>, an astrophysicist and senior scientist, walked us through construction techniques using reinforced sulphur concrete. We discussed the possibility of robotic build-outs of the skeletons of these structures, and arriving humans installing an airtight membrane within the structure. Given the vast quantities of food and water that will be required for human sustenance, we explored growing algae, mushrooms and insects under artificial light and preserving them within food stores.
+* Yash Rathod<sup>6</sup>, a student of architecture at Maharashtra Institute of Technology, discussed various types of Martian habitat construction viz. 3D printed, ice, sulphur concrete, pre-fabricated self-deployable and inflatable structures. We explored an inflatable habitat design with hydraulically powered robotic columns serving as a skeleton. Levels in each facility demarcated facility function from kitchen and greenhouses spaces.
+* Jas Purewal<sup>7</sup>, an astrophysicist and senior scientist, walked us through construction techniques using reinforced sulphur concrete. We discussed the possibility of robotic build-outs of the skeletons of these structures, and arriving humans installing an airtight membrane within the structure. Given the vast quantities of food and water that will be required for human sustenance, we explored growing algae, mushrooms and insects under artificial light and preserving them within food stores.
 
 ### Q. Where can I find out more? 
 This article represents the first green shoots. All our sessions were recorded and are available on [Youtube](https://www.youtube.com/HabitatMarte). I'm always happy to chat about my experience - feel free to reach out to me via the [usual channels](/contact).
 
 ### References
-1. [Yash Rathod's Linkedin](https://www.linkedin.com/in/yash-rathod-434742172/)
-2. [Jas Purewal's Linkedin](http://linkedin.com/in/jas-p-194413b8)
+
+1. [Lava tubes](https://volcanoes.usgs.gov/vsc/glossary/lava_tube.html)
+2. [Ingenuity](https://www.nasa.gov/feature/jpl/6-things-to-know-about-nasas-ingenuity-mars-helicopter/)
+3. [Perseverance mission](https://mars.nasa.gov/mars2020/mission/overview/)
+4. [LEMUR](https://www-robotics.jpl.nasa.gov/systems/system.cfm?System=5)
+5. [Bigelow Aerospace's B330](http://bigelowaerospace.com/pages/b330/)
+6. [Yash Rathod's Linkedin](https://www.linkedin.com/in/yash-rathod-434742172/)
+7. [Jas Purewal's Linkedin](http://linkedin.com/in/jas-p-194413b8)
