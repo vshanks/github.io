@@ -27,3 +27,9 @@
     height: 100%;
     border: 0;
 }
+
+.airtable-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 5%;
+}

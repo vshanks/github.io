@@ -78,6 +78,7 @@ Absolutely! Here are some links to the materials that I presented:
 </div>
 
 <br/>
+
 ### Q. What are some other areas that were discussed?
 
 * Yash Rathod<sup>6</sup>, a student of architecture at Maharashtra Institute of Technology, discussed various types of Martian habitat construction viz. 3D printed, ice, sulphur concrete, pre-fabricated self-deployable and inflatable structures. We explored an inflatable habitat design with hydraulically powered robotic columns serving as a skeleton. Levels in each facility demarcated facility function from kitchen and greenhouses spaces.
